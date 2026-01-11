@@ -21,6 +21,18 @@ Enforces precise, minimal design system inspired by Linear, Notion, and Stripe. 
 - Dark mode considerations
 - Anti-patterns to avoid
 
+### 🛠️ [Skill Creator](./skill-creator/SKILL.md)
+
+Guide for creating effective skills. Use this skill when creating a new skill (or updating an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+
+**Key Topics:**
+- Core principles for skill design
+- Skill anatomy and structure
+- Progressive disclosure patterns
+- Skill creation process (6 steps)
+- Scripts for initialization and packaging
+- Reference patterns for workflows and output
+
 ## Structure
 
 Each skill follows a consistent structure:
