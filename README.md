@@ -8,30 +8,12 @@ Skills are markdown documents that contain structured knowledge, best practices,
 
 ## Available Skills
 
-### 🎨 [Design Principles](./design-principles/SKILL.md)
-
-Enforces precise, minimal design system inspired by Linear, Notion, and Stripe. Use this skill when building dashboards, admin interfaces, or any UI that needs Jony Ive-level precision - clean, modern, minimalist with taste. Every pixel matters.
-
-**Key Topics:**
-- Design direction and personality selection
-- 4px grid system and spacing
-- Typography hierarchy
-- Depth and elevation strategies
-- Color systems and contrast
-- Dark mode considerations
-- Anti-patterns to avoid
-
-### 🛠️ [Skill Creator](./skill-creator/SKILL.md)
-
-Guide for creating effective skills. Use this skill when creating a new skill (or updating an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-
-**Key Topics:**
-- Core principles for skill design
-- Skill anatomy and structure
-- Progressive disclosure patterns
-- Skill creation process (6 steps)
-- Scripts for initialization and packaging
-- Reference patterns for workflows and output
+| Skill | Description |
+|-------|-------------|
+| [design-principles](./design-principles/SKILL.md) | Minimal design system inspired by Linear, Notion, and Stripe. |
+| [humanizer](./humanizer/SKILL.md) | Remove signs of AI-generated writing from text. |
+| [remove-ai-slop](./remove-ai-slop/SKILL.md) | Strip AI filler words and phrases from responses. |
+| [skill-creator](./skill-creator/SKILL.md) | Guide for creating new skills. |
 
 ## Structure
 
