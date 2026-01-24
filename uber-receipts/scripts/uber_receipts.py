@@ -402,15 +402,7 @@ class UberClient:
         return session
     
     def download_receipt_pdf(self, trip_uuid: str, output_path: Path) -> bool:
-        """Download receipt PDF for a trip.
-        
-        Args:
-            trip_uuid: The trip UUID
-            output_path: Path to save the PDF file
-            
-        Returns:
-            True if successful, False otherwise
-        """
+        """Download receipt PDF for a trip."""
         # Get session with riders.uber.com csid
         pdf_session = self._get_riders_session()
         
@@ -765,13 +757,11 @@ First run will prompt for phone + SMS code. Session is cached in ~/.uber_session
             output["receipts"] = downloaded_receipts
     
     # Write output
-    json_output = json.dumps(output, indent=2, ensure_ascii=False)
-    
     if args.output:
-        Path(args.output).write_text(json_output)
+        Path(args.output).write_text(json.dumps(output, indent=2, ensure_ascii=False))
         print(f"Wrote {len(trips)} trips to {args.output}", file=sys.stderr)
     else:
-        print(json_output)
+        print(json.dumps(output, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

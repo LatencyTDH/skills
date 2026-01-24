@@ -12,8 +12,10 @@ Skills are markdown documents that contain structured knowledge, best practices,
 |-------|-------------|
 | [design-principles](./design-principles/SKILL.md) | Minimal design system inspired by Linear, Notion, and Stripe. |
 | [humanizer](./humanizer/SKILL.md) | Remove signs of AI-generated writing from text. |
+| [lyft-receipts](./lyft-receipts/SKILL.md) | Fetch Lyft ride history and receipts via web session cookies. |
 | [remove-ai-slop](./remove-ai-slop/SKILL.md) | Strip AI filler words and phrases from responses. |
 | [skill-creator](./skill-creator/SKILL.md) | Guide for creating new skills. |
+| [uber-receipts](./uber-receipts/SKILL.md) | Fetch Uber ride history and trip data via web session cookies. |
 
 ## Structure
 
